@@ -3,12 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package modelo;
-
+package tienda.modelo;
 
 /**
  *
  * @author qooki
+ */
+
+/**
+ * Categoria es una instancia que describe la categoria de un objeto, únicamente registra el nombre de categoria.
  */
 class Categoria {
     //Atributos
@@ -20,7 +23,10 @@ class Categoria {
         this.nombre=_nombre;
     }
     
-    // M È T O D O S
+/**
+ * El mètodo de obtener instancia, retorna como su nombre lo dice, la instancia.
+ * La sobrecarga del toString se utiliza para obtener el único atributo de "Categoria"
+ */
     public Categoria obtenerInstancia()
     {
         return this;
